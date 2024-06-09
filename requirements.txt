@@ -1,5 +1,4 @@
 numpy==1.26.4
-python ==3.11.8
 Pillow==9.3.0
 streamlit==1.32.0
 lang-sam @ git+https://github.com/luca-medeiros/lang-segment-anything.git@831cdc10906a23aabe4591a4be06f4c989e4ee30
