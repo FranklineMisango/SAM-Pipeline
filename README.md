@@ -13,8 +13,8 @@
 * To finally run the app, run streamlit run app.py
 
 ## Credits 
-![Arxix Paper]("https://segment-anything.com/)
-![Meta SAM Github]("https://github.com/facebookresearch/segment-anything")
+* ![Arxix Paper]("https://segment-anything.com/)
+* ![Meta SAM Github]("https://github.com/facebookresearch/segment-anything")
 
 ## Future Improvement - open to colab
 * The app is a bit slow, so I am working on that 
