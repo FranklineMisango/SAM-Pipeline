@@ -1,0 +1,2 @@
+lang-sam @ git+https://github.com/luca-medeiros/lang-segment-anything.git@831cdc10906a23aabe4591a4be06f4c989e4ee30
+Pillow==9.3.0
