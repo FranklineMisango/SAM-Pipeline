@@ -3,12 +3,17 @@ from lang_sam import LangSAM
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
+
+
+#page config
+st.set_page_config(layout="wide")
+
 # Initialize the model
 model = LangSAM()
 
 # Streamlit app title and instructions
 st.title("SAM Multilabelling App")
-st.success("Import the picture below")
+st.write("Import a picture below")
 
 # File uploader for the image
 original_image = st.file_uploader("Drop the image", type=['png', 'jpg', 'jpeg'])
@@ -29,7 +34,7 @@ if original_image:
             if text_prompt:
                 text_prompts.append(text_prompt)
 
-        if len(text_prompts) == num_objects:
+        if len(text_prompts) == num_objects and st.button("Label!"):
             try:
                 # Perform predictions for each text prompt
                 predictions = []
