@@ -29,6 +29,7 @@ jobs:
           source venv/bin/activate
           pip install torch
           pip install torchvision==0.18.1
+          pip install lang-sam @ git+https://github.com/luca-medeiros/lang-segment-anything.git@831cdc10906a23aabe4591a4be06f4c989e4ee30
 
       - name: Install dependencies
         run: |
