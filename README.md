@@ -18,4 +18,4 @@
 * ![Meta SAM Github]("https://github.com/facebookresearch/segment-anything")
 
 ## Future Improvement - open to colab
-* The app is a bit slow, so I am working on that 
+* The app is a bit slow, so I am on pushing it to the AWS EC2 clusters and make it a bit faster for future use cases
