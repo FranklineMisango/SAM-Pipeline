@@ -4,7 +4,7 @@
 
 ## Demo
 * [Screencast from 2024-06-09 13-34-45.webm](https://github.com/FranklineMisango/SAM-Pipeline/assets/95913228/b4b3a655-1260-4f0c-9ed7-9778ec6fc20e)
-* [Video from rangerover](/home/misango/code/SAM-Pipeline/output.avi)
+* [Video from rangerover](output.avi)
 
 ## Installation
 * Clone this repo
